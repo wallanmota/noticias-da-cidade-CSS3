@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(img/fundo.png)repeat-x top left;
+    
+}
+
+/**************************
+Topo */
+
+#topo{
+    width: 70%;
+    height: 233px;
+    min-width: 830px;
+    max-width: 920px;
+    margin: 0 auto;
+    
+}
+
+#logo{
+    float: left;
+    margin-top: 30px;
+}
+
+#img-topo{
+    float: right;
+}
+
+ul#menu-topo{
+    list-style: none;
+    margin: 0px;
+    margin-top: -60px;
+    padding: 0px;
+    float: left;
+    background: #b10333;
+}
+
+ul#menu-topo li{
+    float: left;
+}
+
+ul#menu-topo a{
+    display: block;
+    text-decoration: none; 
+    padding: 0 1.5em;
+    line-height: 2.5em;
+    color: #fff;
+    background: url(img/divisor.png) no-repeat left center;
+
+}
+
+ul#menu-topo .primeiro a{
+    background: none;
+}
+
+ul#menu-topo a:hover{
+    background: salmon;
+}
+
+.clear{
+    clear: both;
+}
+
+/**************************
+Container */
+
+#container{
+    width: 70%;
+    min-width: 830px;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.colunas{
+    float: left;
+    background: url(img/fundo-caixa.png);
+}
+
+.colunas h3{
+    color: #fff;
+    background: #294c71;
+    width: 90%;
+    margin: 5px auto;
+    line-height: 1.5em;
+    padding-left: 5px;
+}
+
+.white{
+    background: #fff;
+}
+
+#col1{
+    width: 25%;
+    margin-right: 20px;
+}
+
+#col2{
+    width: 35%;
+    margin-right: 20px;
+}
+
+#col3{
+    width: 35%;
+}
+
+ul#lista-lateral {
+    width: 90%;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+ul#lista-lateral li{
+    padding: 10px 5px;
+    font-size: 0.9em;
+}
+
+form{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 9px;
+}
+
+label{
+    display: block;
+    font-size: 0.9em;
+}
+input{
+    width: 95%;
+    height: 30px;
+}
+
+.botao{
+    width: 80px;
+    line-height: 1.5em;
+    color: white;
+    background: #b10333;
+    border: none;
+}
+.botao:hover{
+    background: salmon;
+}
+
+.conteudo-cima{
+    width: 90%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.conteudo-cima h4{
+    color: #000;
+    background: #b10333;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.conteudo-cima img{
+    width: 100%;
+}
+
+.conteudo-cima a{
+    color: #b10333;
+    font-size: 0.9em;
+}
+p{
+    font-size: 0.9em;
+}
+
+.conteudo-baixo{
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 5px;
+}
+
+div .conteudo-baixo {
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+.conteudo-baixo img{
+    width: 30%;
+    float: left;
+}
+
+.conteudo-baixo a{
+    font-size: 0.8em;
+    color: skyblue;
+    text-transform: uppercase;
+}
+
+.conteudo-baixo p{
+    font-size: 0.8em;
+}
+
+div .ultimo{
+    margin-bottom: 9px;
+    border-bottom: none;
+}
+
+#rodape{
+    color: #fff;
+    background: #294c71;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
